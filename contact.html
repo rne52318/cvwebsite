@@ -18,17 +18,12 @@
             <p>421 W. Hancock Avenue, 30601 &bull; Athens, Georgia &bull; 912-266-955 &bull; roman.edwards&#64;uga.edu</p>
         </section>
         <hr>
-        <form  class="one-col" action="https://formsubmit.co/e1c0998e794ef84f4e592e59caa0dc86" method="POST">
+        <form  class="one-col" target="_blank" action="https://formsubmit.co/e1c0998e794ef84f4e592e59caa0dc86" method="POST">
             Name: <input type="text" name="name">
             Email: <input type="email" name="email">
             Message: <textarea name="message" rows="4"></textarea>
-            <!-- 
-            This input switching to thankyou.html DOES NOT work.
-            FormSubmit requires a web server and does not redirect to a path or file.
-            If this CV had a domain, it would function properly and the swap should work.
-            Submissions still go to my inbox.
-            -->
-            <input type="hidden" name="_redirect" value="thankyou.html">
+            <input type="hidden" name="_next" value="https://rne52318.github.io/cvwebsite/thankyou.html">
+            <input type="hidden" name="_url" value="https://rne52318.github.io/cvwebsite">
             <button type="submit">Submit</button>
         </form>
         <footer>
