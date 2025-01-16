@@ -14,9 +14,14 @@ nav {
 
 nav p, nav a {}
 
-nav a {}
+nav a {
+    color:#37474F;
+    text-decoration: none;
+}
 
-nav a:hover {}
+nav a:hover {
+    color: azure;
+}
 
 /* Footer Styles */
 footer {
