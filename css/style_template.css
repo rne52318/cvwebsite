@@ -115,7 +115,7 @@ dl dd{}
 /* Project Section */
 .three-col {
     display: grid;
-    grid-template-columns: 640px 640px 640px;
+    grid-template-columns: 33vw 33vw 33vw;
 }
 
 .card {
@@ -126,10 +126,15 @@ dl dd{}
     background-color: #37474F;
 }
 
+.card a {
+    color:#052838
+}
+
 .card img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    width: 30vw;
     display: block;
 }
 
