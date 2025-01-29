@@ -10,6 +10,9 @@ nav {
     font-size: 25px;
     display: flex;
     justify-content: space-around;
+    position:fixed;
+    width:100%;
+    top:0;
 }
 
 nav p, nav a {}
@@ -30,6 +33,9 @@ footer {
     padding: 5px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    bottom:0px;
+    width:100vw;
 }
 
 footer a {
